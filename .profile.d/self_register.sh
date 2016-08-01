@@ -1,0 +1,1 @@
+curl 10.144.138.220:8500/v1/agent/service/register -H 'Content-Type: application/json' -X PUT -d '{  "ID": "helloWorld3",  "Name": "helloWorld3",  "api": "127.0.0.1",  "Port": 8080,  "Check": {    "Interval": "10s",    "TTL": "15s"  }}'
