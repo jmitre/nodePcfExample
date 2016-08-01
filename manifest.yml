@@ -4,9 +4,3 @@ applications:
   memory: 512M
   instances: 1
   random-route: true
-
-env:
-  HELLO: "helloworld"
-  URL: "http://cf-nodejs-spectrological-dimethylsulphoxide.local.pcfdev.io/"
-  NAME: "nodeApp"
-  ID: "nodeApp"

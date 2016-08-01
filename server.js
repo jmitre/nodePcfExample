@@ -22,4 +22,8 @@ app.get( '/', function ( req, res) {
   })
 })
 
+app.get('/health', function (req, res){
+  res.json("status: ok");
+});
+
 app.listen( process.env.PORT || 4000)
