@@ -1,0 +1,1 @@
+curl 10.142.189.43:8500/v1/agent/service/register -H 'Content-Type: application/json' -X PUT -d '{  "ID": "123abc"  ,  "Name": "hey" ,   "Port": 8080}'
